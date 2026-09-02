@@ -15,6 +15,7 @@ public class Patient {
         this.visitHistory = new VisitLinkedList();
     }
 
+    @Override
     public String toString() {
         return "ID: " + patientId + " | Name: " + name + " | Age: " + age +
                " | Contact: " + contactNumber + " | Condition: " + medicalCondition;

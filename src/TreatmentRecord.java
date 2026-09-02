@@ -11,6 +11,7 @@ public class TreatmentRecord {
         this.date = date;
     }
 
+    @Override
     public String toString() {
         return "PatientID: " + patientId + " | Name: " + patientName +
                " | Treatment: " + treatmentGiven + " | Date: " + date;

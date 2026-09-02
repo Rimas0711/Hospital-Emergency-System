@@ -15,6 +15,7 @@ public class Visit {
         this.next = null;
     }
 
+    @Override
     public String toString() {
         return "VisitID: " + visitId + " | Date: " + visitDate + " | Doctor: " + doctorName +
                " | Diagnosis: " + diagnosis + " | Treatment: " + treatment;

@@ -1,7 +1,7 @@
 import java.util.Stack;
 
 public class TreatmentStack {
-    private Stack<TreatmentRecord> stack = new Stack<>();
+    private final Stack<TreatmentRecord> stack = new Stack<>();
 
     // PUSH
     public void push(TreatmentRecord record) {
